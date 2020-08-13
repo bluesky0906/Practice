@@ -19,7 +19,7 @@ def binary_search(n, S, T):
 def main():
     n = int(input())
     S = list(map(int, input().split()))
-    q = int(input())
+    int(input())
     T = list(map(int, input().split()))
 
     print(binary_search(n, S, T))
